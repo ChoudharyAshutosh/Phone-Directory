@@ -1,20 +1,4 @@
-.success{
-    background: lightgreen;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    color: #fff;
-    padding: 0.5% 1%;
-    width: fit-content;
-    border: 0px;
-}
-.danger{
-    background: #fa9c9c;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    padding: 1.5% 2.5%;
-    width: fit-content;
-    border: 0px;
-}
+
 .container{
     display: grid;
     grid-template-columns: 40% 30% auto;
@@ -35,7 +19,4 @@
     font-weight: bold;
     color:gray;
     text-transform: uppercase;
-}
-.container-body{
-    padding: 20px;
 }

@@ -1,0 +1,29 @@
+.success{
+    background: green;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0.5% 1%;
+    width: fit-content;
+    border: 0px;
+}
+.danger{
+    background: #fa9c9c;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1.5% 2.5%;
+    width: fit-content;
+    border: 0px;
+}
+.back{
+    background: lightslategray;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 0.5% 1%;
+    width: fit-content;
+    border: 0px;
+}
+.container-body{
+    padding: 20px;
+}
