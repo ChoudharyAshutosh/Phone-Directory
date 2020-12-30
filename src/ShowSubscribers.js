@@ -1,18 +1,18 @@
 import React, {Fragment,Component} from 'react';
 import Header from './Header';
-import './ShowSubscribers.css'
+import './ShowSubscribers.css';
+import {Link} from 'react-router-dom';
 class ShowSubscribers extends Component {
  
   clickHandler(mess){
     alert(mess);
   }
    render(){
-    console.log("Render invoked");
   return (
     <Fragment>
       <Header heading="Phone Directory"/>
       <div className="container-body">
-      <button className="success">Add</button>
+      <Link to="/add"><button className="success">Add</button></Link>
       <div className="container">
         <span className="container-item heading">Name</span>
         <span className="container-item heading">Phone</span>
